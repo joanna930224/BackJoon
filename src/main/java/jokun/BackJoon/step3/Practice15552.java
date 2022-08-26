@@ -22,7 +22,7 @@ public class Practice15552 {
         //버퍼 비우기
         bw.flush();
 
-        //버퍼 닫기기
+        //버퍼 닫기
         bw.close();
     }
 }

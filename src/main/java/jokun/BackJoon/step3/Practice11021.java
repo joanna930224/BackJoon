@@ -15,10 +15,8 @@ public class Practice11021 {
         for (int i = 1; i <= t; i++) { // 1부터 시작하도록 한다 -> Case 값도 같이 표기하기 위해서
             st = new StringTokenizer(br.readLine() , " ");
             // 입력받은 문자열을 delim으로 분리
-            int a = Integer.parseInt(st.nextToken());
-            int b = Integer.parseInt(st.nextToken());
-            int sum = a + b;
-            bw.write("Case #" + i + ": " + sum + "\n");
+            bw.write("Case #" + i + ": ");
+            bw.write((Integer.parseInt(st.nextToken()) + Integer.parseInt(st.nextToken())) + "\n");
         }
         br.close();
 
