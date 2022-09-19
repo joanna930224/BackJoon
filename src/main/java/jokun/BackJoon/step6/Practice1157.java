@@ -8,6 +8,13 @@ public class Practice1157 {
         Scanner sc = new Scanner(System.in);
         String text = sc.nextLine();
 
+        char[] textList = new char[text.length()];
+        for (int i = 0; i < text.length(); i++) {
+            textList[i] = text.charAt(i);
+        }
 
+        for (int i = 0; i < ; i++) {
+            
+        }
     }
 }
